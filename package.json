@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "deploy": "git checkout gh-pages && git merge main --no-edit && npx webpack && git add dist -f && git commit -m 'Deployment' && git subtree push --prefix dist origin gh-pages && git checkout main"
   },
   "repository": {
     "type": "git",
