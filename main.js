@@ -46,7 +46,7 @@ eval("{__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpa
   \*********************/
 (__unused_webpack_module, __webpack_exports__, __webpack_require__) {
 
-eval("{__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   loadMenuPage: () => (/* binding */ loadMenuPage)\n/* harmony export */ });\nfunction loadMenuPage(){\n    const content = document.getElementById(\"content\");\n    const heading = document.createElement(\"h1\");\n\n    heading.textContent = \"This is the Menu page\";\n    content.appendChild(heading);\n}\n\n//# sourceURL=webpack://odin-restaurant/./src/menu.js?\n}");
+eval("{__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   loadMenuPage: () => (/* binding */ loadMenuPage)\n/* harmony export */ });\nfunction loadMenuPage(){\n    const content = document.getElementById(\"content\");\n    const heading = document.createElement(\"h1\");\n\n    heading.textContent = \"This is the Menu page!!!\";\n    content.appendChild(heading);\n}\n\n//# sourceURL=webpack://odin-restaurant/./src/menu.js?\n}");
 
 /***/ },
 
